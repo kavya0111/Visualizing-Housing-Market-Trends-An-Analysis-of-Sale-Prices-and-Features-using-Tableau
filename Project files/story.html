@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story Slideshow</title>
+    <style>
+        img {
+            width: 800px;
+            height: 500px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tableau Story</h2>
+
+    <!-- Slideshow Image -->
+    <img id="slideshow" src="{{ url_for('static', filename='img1.jpg') }}" alt="Chart" onclick="nextImage()">
+
+    <script>
+        const images = [
+            "{{ url_for('static', filename='img1.jpg') }}",
+            "{{ url_for('static', filename='img2.jpg') }}",
+            "{{ url_for('static', filename='img3.jpg') }}",
+            "{{ url_for('static', filename='img4.jpg') }}"
+        ];
+
+        let currentIndex = 0;
+
+        function nextImage() {
+            currentIndex++;
+            if (currentIndex < images.length) {
+                document.getElementById("slideshow").src = images[currentIndex];
+            } else {
+                // Redirect to Tableau Story after last image
+                window.location.href = "https://public.tableau.com/views/story_17516963540820/Story1?:embed=true";
+            }
+        }
+    </script>
+
+    <br><br>
+
+    <!-- View Tableau Story Link -->
+    <p>
+        <a href="https://public.tableau.com/views/story_17516963540820/Story1?:embed=true" target="_blank">
+            📊 View Full Story in Tableau
+        </a>
+    </p>
+
+    <!-- Home Link -->
+    <a href="/">Home</a>
+</body>
+</html>
