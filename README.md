@@ -72,13 +72,8 @@ Visualizing-Housing-Market-Trends/
 - Dashboard 3: Regional Comparison  
 
 ---
-
-## 🚀 Getting Started
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Visualizing-Housing-Market-Trends.git
-cd Visualizing-Housing-Market-Trends
+1. Clone the Repository
+    
 2. Open Tableau Workbook
 Navigate to the tableau_workbook/ directory.
 
@@ -89,14 +84,15 @@ Ensure the data/ folder contains required datasets.
 
 Update paths in Tableau’s data source settings if necessary.
 
-📊 Data Sources
+## 📊 Data Sources
+
 [Insert Dataset Source Name – e.g., Ames Housing Dataset, Kaggle, etc.]
 
 Data has been cleaned and transformed for analysis.
 
 All data used is publicly available or anonymized.
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions from the community!
 
 Fork the repository
@@ -109,12 +105,11 @@ Push to your branch: git push origin feature-name
 
 Submit a Pull Request
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
-📬 Contact
+## 📬 Contact
 Project Maintainer
 
 GitHub:kavya0111
-
-Email:22h41a0531kavya@gmail.com
+Email: 22h41a0531kavya@gmail.com
