@@ -74,6 +74,20 @@ Visualizing-Housing-Market-Trends/
 ---
 
 ## 🚀 Getting Started
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Visualizing-Housing-Market-Trends.git
+cd Visualizing-Housing-Market-Trends
+2. Open Tableau Workbook
+Navigate to the tableau_workbook/ directory.
+
+Open the .twb or .twbx file in Tableau.
+
+3. Connect Data (if needed)
+Ensure the data/ folder contains required datasets.
+
+Update paths in Tableau’s data source settings if necessary.
 
 📊 Data Sources
 [Insert Dataset Source Name – e.g., Ames Housing Dataset, Kaggle, etc.]
@@ -82,3 +96,25 @@ Data has been cleaned and transformed for analysis.
 
 All data used is publicly available or anonymized.
 
+🤝 Contributing
+We welcome contributions from the community!
+
+Fork the repository
+
+Create a new branch: git checkout -b feature-name
+
+Commit your changes: git commit -m "Add feature"
+
+Push to your branch: git push origin feature-name
+
+Submit a Pull Request
+
+📜 License
+This project is licensed under the MIT License.
+
+📬 Contact
+Project Maintainer
+
+GitHub:kavya0111
+
+Email:22h41a0531kavya@gmail.com
