@@ -65,13 +65,13 @@ Visualizing-Housing-Market-Trends/
 
 ## 📈 Sample Dashboards
 
-> *(Insert screenshots or links to Tableau Public if available)*
-
 - Dashboard 1: Market Trends Overview  
 - Dashboard 2: Feature Impact Analysis  
 - Dashboard 3: Regional Comparison  
 
 ---
+## 🚀 Getting Started
+
 1. Clone the Repository
     
 2. Open Tableau Workbook
